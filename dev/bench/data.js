@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690281524883,
+  "lastUpdate": 1690281652914,
   "repoUrl": "https://github.com/StevenSchlechte/GitHubPagesReoi",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -114,6 +114,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011679507892263704",
             "extra": "mean: 310.1840957999997 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96142435+StevenSchlechte@users.noreply.github.com",
+            "name": "Steven Schlechte",
+            "username": "StevenSchlechte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e9bd4e5ae54dddb83b894b0d67e485948b1e23ae",
+          "message": "Update bench.py",
+          "timestamp": "2023-07-25T12:40:27+02:00",
+          "tree_id": "76248d9bc2292a4511965b1a026fbcca5b6862ba",
+          "url": "https://github.com/StevenSchlechte/GitHubPagesReoi/commit/e9bd4e5ae54dddb83b894b0d67e485948b1e23ae"
+        },
+        "date": 1690281652703,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 60611.406782229846,
+            "unit": "iter/sec",
+            "range": "stddev: 8.799674419892848e-7",
+            "extra": "mean: 16.498544631918715 usec\nrounds: 36364"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 494.0829631540127,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001574568939294706",
+            "extra": "mean: 2.0239515922921747 msec\nrounds: 493"
+          },
+          {
+            "name": "bench.py::test_fib_30",
+            "value": 4.045872212428942,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00017644837346932993",
+            "extra": "mean: 247.16549299999997 msec\nrounds: 5"
           }
         ]
       }
