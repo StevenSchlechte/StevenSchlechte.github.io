@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690280859832,
+  "lastUpdate": 1690281450794,
   "repoUrl": "https://github.com/StevenSchlechte/GitHubPagesReoi",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -38,6 +38,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0004359018630827986",
             "extra": "mean: 2.428517396464445 msec\nrounds: 396"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96142435+StevenSchlechte@users.noreply.github.com",
+            "name": "Steven Schlechte",
+            "username": "StevenSchlechte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59619b25dafe72020dfb6692f612cde1496df997",
+          "message": "Update bench.py",
+          "timestamp": "2023-07-25T12:31:49+02:00",
+          "tree_id": "05b30f919d2fddc90aa92fb623594584ff596638",
+          "url": "https://github.com/StevenSchlechte/GitHubPagesReoi/commit/59619b25dafe72020dfb6692f612cde1496df997"
+        },
+        "date": 1690281450261,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 2.7211293330223794,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015483808592174002",
+            "extra": "mean: 367.4944766000124 msec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 0.022553791963958597,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019045712447645392",
+            "extra": "mean: 44.3384421386 sec\nrounds: 5"
           }
         ]
       }
