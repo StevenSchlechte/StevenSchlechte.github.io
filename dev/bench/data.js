@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690281652914,
+  "lastUpdate": 1690282117473,
   "repoUrl": "https://github.com/StevenSchlechte/GitHubPagesReoi",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -159,6 +159,56 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00017644837346932993",
             "extra": "mean: 247.16549299999997 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "steven@Sebastians-Mac-mini.local",
+            "name": "Steven Schlechte"
+          },
+          "committer": {
+            "email": "steven@Sebastians-Mac-mini.local",
+            "name": "Steven Schlechte"
+          },
+          "distinct": true,
+          "id": "2d0b704136d1b45c8027922a8d9b212e24e7ae63",
+          "message": "added more tests",
+          "timestamp": "2023-07-25T12:47:52+02:00",
+          "tree_id": "446d6ac6a3efd624db887cccfcc631cb948ed8b4",
+          "url": "https://github.com/StevenSchlechte/GitHubPagesReoi/commit/2d0b704136d1b45c8027922a8d9b212e24e7ae63"
+        },
+        "date": 1690282117231,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 41780.09344761273,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000011413068245304369",
+            "extra": "mean: 23.93484354585949 usec\nrounds: 24039"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 348.43700945380743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000264244539167566",
+            "extra": "mean: 2.8699591974100294 msec\nrounds: 309"
+          },
+          {
+            "name": "bench.py::test_fib_30",
+            "value": 2.75424809097353,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006159243756235401",
+            "extra": "mean: 363.0754989999957 msec\nrounds: 5"
+          },
+          {
+            "name": "bench.py::test_fib_32",
+            "value": 1.0701237494378442,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018880781411630375",
+            "extra": "mean: 934.4713641999988 msec\nrounds: 5"
           }
         ]
       }
