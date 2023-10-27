@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698399812661,
+  "lastUpdate": 1698399913887,
   "repoUrl": "https://github.com/OpenTrafficCam/OTAnalyticsForkForWorkflowTesting",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -389,6 +389,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0",
             "extra": "mean: 950.2564389999861 msec\nrounds: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "96142435+StevenSchlechte@users.noreply.github.com",
+            "name": "Steven Schlechte",
+            "username": "StevenSchlechte"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90a54744e3b0a2da79f36ca7f94d00844355e23b",
+          "message": "Update benchmark.yml",
+          "timestamp": "2023-10-27T11:44:21+02:00",
+          "tree_id": "3dbaaf68d8195a33fe4f9817e6337b567e56addf",
+          "url": "https://github.com/OpenTrafficCam/OTAnalyticsForkForWorkflowTesting/commit/90a54744e3b0a2da79f36ca7f94d00844355e23b"
+        },
+        "date": 1698399913494,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmark_otanalytics.py::TestProfile::test_load_ottrks_with_python_parser",
+            "value": 0.7795453395819997,
+            "unit": "iter/sec",
+            "range": "stddev: 0",
+            "extra": "mean: 1.2827990230000097 sec\nrounds: 1"
+          },
+          {
+            "name": "tests/benchmark_otanalytics.py::TestProfile::test_load_ottrks_with_panda_parser",
+            "value": 1.038688192569571,
+            "unit": "iter/sec",
+            "range": "stddev: 0",
+            "extra": "mean: 962.7528329999961 msec\nrounds: 1"
           }
         ]
       }
