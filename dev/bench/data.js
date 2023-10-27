@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698399913887,
+  "lastUpdate": 1698401937446,
   "repoUrl": "https://github.com/OpenTrafficCam/OTAnalyticsForkForWorkflowTesting",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -427,6 +427,58 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0",
             "extra": "mean: 962.7528329999961 msec\nrounds: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "steven.schlechte@gmx.net",
+            "name": "Steven Schlechte",
+            "username": "StevenSchlechte"
+          },
+          "committer": {
+            "email": "steven.schlechte@gmx.net",
+            "name": "Steven Schlechte",
+            "username": "StevenSchlechte"
+          },
+          "distinct": true,
+          "id": "831556ac0e7f38a9554d32205b846edd17dfe8a1",
+          "message": "changed test",
+          "timestamp": "2023-10-27T12:16:38+02:00",
+          "tree_id": "7e7e536238ba003e58ad407ec38ce8611fff4fb9",
+          "url": "https://github.com/OpenTrafficCam/OTAnalyticsForkForWorkflowTesting/commit/831556ac0e7f38a9554d32205b846edd17dfe8a1"
+        },
+        "date": 1698401937041,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmark_otanalytics.py::TestProfile::test_load_ottrks_with_python_parser",
+            "value": 0.6817732520311862,
+            "unit": "iter/sec",
+            "range": "stddev: 0",
+            "extra": "mean: 1.4667633219999914 sec\nrounds: 1"
+          },
+          {
+            "name": "tests/benchmark_otanalytics.py::TestProfile::test_load_ottrks_with_pandas_parser",
+            "value": 0.9217390440958947,
+            "unit": "iter/sec",
+            "range": "stddev: 0",
+            "extra": "mean: 1.0849057619999911 sec\nrounds: 1"
+          },
+          {
+            "name": "tests/benchmark_otanalytics.py::TestProfile::test_create_events",
+            "value": 0.13719648145917915,
+            "unit": "iter/sec",
+            "range": "stddev: 0.13611614324860222",
+            "extra": "mean: 7.288816661800001 sec\nrounds: 5"
+          },
+          {
+            "name": "tests/benchmark_otanalytics.py::TestProfile::test_tracks_intersecting_sections",
+            "value": 0.5903496641259853,
+            "unit": "iter/sec",
+            "range": "stddev: 0.017200848158446573",
+            "extra": "mean: 1.6939113558750023 sec\nrounds: 2"
           }
         ]
       }
